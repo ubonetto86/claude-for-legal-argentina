@@ -83,12 +83,12 @@ Regla operativa: identificar qué dependencia de AFIP tiene competencia antes de
 
 | Tributo | Norma |
 |---|---|
-| IVA | Ley 23.349 y DR Decreto 692/98 |
-| Ganancias (personas humanas) | Ley 20.628 y DR Decreto 862/19 |
+| IVA | Ley 23.349 y DR Decreto 692/98 [VERIFICAR VIGENCIA] |
+| Ganancias (personas humanas) | Ley 20.628 y DR Decreto 862/19 [VERIFICAR VIGENCIA: el DR fue objeto de modificaciones desde 2019] |
 | Ganancias (sociedades) | Ley 20.628, arts. 69 y ss. |
 | Bienes Personales | Ley 23.966 Título VI y modificatorias |
 | Ganancia Mínima Presunta | Ley 25.063 - **DEROGADA** por art. 76 Ley 27.260 con vigencia desde el ejercicio fiscal iniciado el 1° de enero de 2019. No aplica a períodos posteriores. Para períodos anteriores a 2019, puede haber ajustes o litigios pendientes bajo el régimen derogado. |
-| Seguridad social | Ley 24.241 (SIPA), Ley 24.714 (asignaciones), Decreto 814/01 y modificatorias |
+| Seguridad social | Ley 24.241 (SIPA), Ley 24.714 (asignaciones), Decreto 814/01 y modificatorias [VERIFICAR VIGENCIA] |
 | Impuesto a los débitos y créditos bancarios | Ley 25.413 |
 | Derechos de exportación | CN art. 4 + Ley 27.541 y normas de emergencia |
 
