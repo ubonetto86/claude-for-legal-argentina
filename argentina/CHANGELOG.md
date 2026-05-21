@@ -28,6 +28,72 @@ No esperar a la revisión periódica.
 
 ## 2026
 
+### Mayo 2026 - Feriados trasladables 2026 y Decreto 614/2025 [URGENTE]
+
+**Archivos modificados:**
+- `argentina/plazos-SKILL.md` - incorporación del Decreto 614/2025 sobre feriados trasladables;
+  traslados concretos para 2026: Día de Güemes (17/6, feriado nacional) trasladado al lunes 15/6;
+  Día de la Soberanía Nacional (20/11) trasladado al lunes 23/11; impacto directo en cómputo
+  de plazos procesales y administrativos durante el segundo semestre 2026
+
+**Normas afectadas:**
+- Decreto 614/2025 (BO N° 35737, 28/08/2025): incorporado con traslados de feriados para 2026
+
+**Impacto en marcadores:**
+- `[ALERTA PLAZO FATAL]`: considerar traslados del Decreto 614/2025 al computar plazos
+  con vencimiento próximo al 17/6 (Güemes, corre el 15/6) y al 20/11 (Soberanía, corre el 23/11)
+
+**Fuente:**
+- Decreto 614/2025 - BO N° 35737, 28/08/2025
+
+---
+
+### Mayo 2026 - Tasas de interés post-Acta CNAT 2788/2024
+
+**Archivos modificados:**
+- `argentina/laboral-CLAUDE.md` - sección de tasas de interés actualizada: incorporación de la
+  situación post-Acta CNAT 2788/2024; el acta deja sin efecto la recomendación del Acta
+  2783/2024 y la Resolución de Cámara N° 3 del 14/03/2024, sin establecer un nuevo mecanismo
+  unificado de actualización de intereses; criterio por sala: no unificado; la definición
+  queda remitida al criterio de cada tribunal/sala; instrucción operativa: verificar criterio
+  de la sala actuante antes de cuantificar intereses en cualquier escrito laboral
+
+**Normas afectadas:**
+- Acta CNAT 2788/2024: deroga Acta 2783/2024 y Resolución de Cámara N° 3 (14/03/2024);
+  sin nuevo mecanismo unificado; criterio fragmentado por sala
+
+**Impacto en marcadores:**
+- `[VERIFICAR CRITERIO DEL FUERO: tasa de interés - post-Acta CNAT 2788/2024 - sala actuante]`:
+  usar en todo escrito laboral que cuantifique intereses
+
+**Fuente:**
+- Acta CNAT 2788/2024
+
+---
+
+### Mayo 2026 - Cambio de denominación ARCA / Decreto 953/2024
+
+**Archivos modificados:**
+- `argentina/tributario-CLAUDE.md` - nota sobre cambio de denominación del organismo recaudador:
+  la AFIP fue reemplazada por la Agencia de Recaudación y Control Aduanero (ARCA) mediante
+  Decreto 953/2024 (BO 25/08/2025, vigente desde su publicación); instrucción operativa:
+  usar "ARCA" en escritos y presentaciones; verificar período de transición del acto
+  administrativo específico ante el que se actúa antes de adoptar la nueva denominación;
+  mantener "AFIP" solo en referencias a actos, resoluciones y procedimientos anteriores
+  a la fecha de publicación
+
+**Normas afectadas:**
+- Decreto 953/2024 (BO 25/08/2025): transformación de AFIP en ARCA
+
+**Impacto en marcadores:**
+- Sin cambio de marcadores. Regla operativa: ARCA para actos posteriores al 25/08/2025;
+  AFIP para referencias históricas; verificar transición en cada acto administrativo concreto
+
+**Fuente:**
+- Decreto 953/2024 - BO 25/08/2025
+
+---
+
 ### Mayo 2026 - Sincronización README con fuentes.md (Etapa 9)
 
 **Archivos modificados:**
@@ -180,7 +246,7 @@ Actualizar la columna "Última verificación" cuando se confirme la vigencia.
 | Norma | Área | Dato volátil | Última verificación |
 |---|---|---|---|
 | Art. 245 LCT - tope indemnizatorio | Laboral | Monto del tope por CCT | Mayo 2026 - verificar por CCT |
-| Acta CNAT - tasa de interés | Laboral | Tasa y fecha de vigencia | Mayo 2026 - verificar acta vigente |
+| Acta CNAT - tasa de interés | Laboral | Criterio por sala; sin unificación post-Acta 2788/2024; no hay criterio único vigente; revisar pronunciamiento de cada sala | Mayo 2026 - verificar acta vigente |
 | Resolución SRT - prestaciones LRT | Laboral / LRT | Montos de prestaciones | Mayo 2026 - verificar RG vigente |
 | DNU 70/2023 - modificaciones LCT | Laboral | Estado judicial de cada modificación | Mayo 2026 - algunas suspendidas, verificar |
 | Ley 27.430 art. 1 - umbral penal tributario | Tributario | Monto de punibilidad | Mayo 2026 - verificar si fue actualizado |
