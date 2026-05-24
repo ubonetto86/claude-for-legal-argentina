@@ -53,22 +53,29 @@ No aplica doctrinas de common law laboral (at-will employment, wrongful terminat
 
 ---
 
-## Alerta normativa - Decreto 70/2023 y modificaciones posteriores
+## Alerta normativa - Reforma laboral 2023-2024 vigente operacionalmente
 
-*Última verificación de esta sección: mayo 2026. Actualizar cuando cambie el estado judicial de las normas listadas.*
+*Ultima verificacion: mayo 2026.*
 
-El Decreto de Necesidad y Urgencia 70/2023 y la Ley 27.742 (Ley Bases, junio 2024) introdujeron modificaciones a la LCT que pueden estar vigentes, parcialmente vigentes o suspendidas judicialmente al momento de la consulta. Las áreas más afectadas son:
+El **DNU 70/2023** (vigente desde 30-dic-2023) y la **Ley 27.742** (Ley Bases, 9-jul-2024) reformaron sustantivamente la LCT. La medida cautelar inicial de la CGT contra el Titulo IV del DNU fue **levantada por la Camara Nacional del Trabajo en Acuerdo Pleno de abril 2026**, reactivando operativamente la reforma laboral.
 
-- Período de prueba (art. 92 bis LCT): el DNU intentó extenderlo; verificar estado judicial antes de aplicar cualquier plazo distinto al original de 3 meses
-- Indemnización por despido: el DNU modificó algunos aspectos del régimen; verificar texto vigente del art. 245 LCT antes de calcular
-- Negociación colectiva y ultraactividad de CCT: verificar si las modificaciones del DNU en esta materia están vigentes
+**Estado actual (mayo 2026): la reforma esta vigente operacionalmente.**
 
-**Regla operativa:** ante cualquier consulta sobre extinción del contrato, período de prueba o negociación colectiva, agregar:
-```
-[VERIFICAR VIGENCIA: Decreto 70/2023 y Ley 27.742 (Ley Bases, jun. 2024) - confirmar estado judicial de las normas aplicables antes de aconsejar]
-```
+**Areas afectadas - regimen vigente:**
+- Periodo de prueba (art. 92 bis LCT): extendido de 3 meses a **8 meses** como regla general (ver seccion indemnizaciones)
+- Indemnizacion por despido (art. 245 LCT): base de calculo modificada - excluye SAC y bonificaciones de pago semestral o anual (ver seccion indemnizaciones)
+- Fondo de cese laboral como alternativa al art. 245 si el CCT lo establece (ver seccion indemnizaciones)
+- Ultraactividad de CCT: modificada por DNU 70/2023 - verificar texto vigente antes de asesorar sobre CCT vencidos
+- Registro de empleados, presunciones de fraude, sanciones: verificar texto vigente
 
-Las modificaciones relevantes incluyen, entre otras: período de prueba extendido a 6 meses para empresas de hasta 5 empleados (Ley 27.742), modificaciones en ultraactividad de CCT, y aspectos del régimen de extinción. Verificar el texto vigente de cada norma antes de aconsejar.
+**Regla de transicion temporal - aplicar en todo calculo:**
+- Actos extintivos **pre-30-dic-2023:** aplican plazos y normas LCT originales
+- Actos extintivos **30-dic-2023 a 9-jul-2024:** aplica DNU 70/2023
+- Actos extintivos **post-9-jul-2024:** aplica reforma consolidada (DNU 70/2023 + Ley 27.742)
+
+Verificar siempre la fecha del acto extintivo antes de aplicar plazos o normas reformadas.
+
+**Regla operativa:** ante cualquier consulta sobre extincion del contrato, periodo de prueba o negociacion colectiva, identificar la fecha del acto y aplicar el regimen correspondiente segun la tabla de transicion. No asumir regimen sin verificar fecha.
 
 ---
 
@@ -256,18 +263,39 @@ Condición para los agravantes de la Ley 24.013: el trabajador debe intimar feha
 **Preaviso (art. 231 LCT):**
 - Hasta 5 años de antigüedad: 1 mes
 - Más de 5 años: 2 meses
-- Durante el período de prueba (primeros 3 meses base, salvo modificación vigente post-DNU 70/2023 y Ley 27.742): 15 días
+- Durante el período de prueba (8 meses vigente post-reforma, 3 meses para actos pre-30-dic-2023): 15 días
 - Omisión de preaviso: indemnización sustitutiva equivalente a las remuneraciones del período
 
-**Indemnización por antigüedad (art. 245 LCT) [VERIFICAR VIGENCIA post-DNU 70/2023]:**
-- Base: mejor remuneración mensual normal y habitual del último año (o tiempo menor de trabajo)
-- Multiplicador: un mes por año de servicio o fracción mayor a tres meses
-- Tope: tres veces el promedio de todas las remuneraciones previstas en el CCT aplicable, verificado mensualmente por el INDEC [VERIFICAR CCT APLICABLE]
-- Mínimo: no puede ser inferior a dos meses de la base de cálculo (art. 245, último párrafo)
+**Indemnizacion por antiguedad (art. 245 LCT) - DOS regimenes segun fecha del acto extintivo:**
+
+*Regimen reformado (actos extintivos post-30-dic-2023 - VIGENTE):*
+- Base: mejor remuneracion mensual normal y habitual del ultimo ano (o tiempo menor) **excluyendo SAC, bonificaciones, y cualquier concepto de pago semestral o anual**
+- Multiplicador: un mes por ano de servicio o fraccion mayor a tres meses
+- Tope: tres veces el promedio de todas las remuneraciones previstas en el CCT aplicable [VERIFICAR CCT APLICABLE]
+- Minimo: no puede ser inferior a dos meses de la base de calculo (art. 245, ultimo parrafo)
+
+*Regimen original (actos extintivos pre-30-dic-2023):*
+- Base: mejor remuneracion mensual normal y habitual del ultimo ano, **incluyendo SAC y conceptos semestrales/anuales proporcionales**
+- Multiplicador, tope y minimo: identicos al regimen reformado
+
+Verificar siempre la fecha del acto extintivo antes de calcular la base del art. 245.
 
 Regla operativa: calcular siempre base y tope por separado. Doctrina "Vizzoti" (CSJN, 2004): si el tope reduce la base de cálculo en más del 33%, aplica el 67% de la mejor remuneración real como base mínima, sin necesidad de declaración de inconstitucionalidad caso a caso. Verificar la diferencia entre tope y mejor remuneración en toda liquidación donde el tope resulte inferior a la remuneración real.
 
 **Ejemplo de cálculo orientativo:** ver `argentina/ejemplos-laboral.md` para casos resueltos con checklist completo de rubros. Cargar ese archivo junto con este perfil en las instrucciones del Project.
+
+**Fondo de cese laboral / sistema de capitalizacion privada (alternativa al art. 245 LCT):**
+
+Introducido por DNU 70/2023. Si el CCT aplicable lo establece, el regimen de compensacion por extincion puede ser reemplazado por un fondo de cese o sistema de capitalizacion privada contratado por el empleador a su costo.
+
+- Cubre: la indemnizacion del art. 245 y/o sumas acordadas para extincion por mutuo acuerdo (art. 241 LCT)
+- Solo aplica si el CCT lo prevee expresamente
+- Limitaciones criticas: sin minimo legal de contribucion, sin preservacion de valor en inflacion, sin inembargabilidad equivalente al fondo de cese de la construccion (Ley 22.250)
+
+Preguntas de diagnostico ante este supuesto:
+1. El CCT aplicable establece o admite fondo de cese?
+2. El empleador contrato sistema de capitalizacion?
+3. La cobertura iguala o supera el monto proyectado del art. 245 a la antiguedad estimada?
 
 **Agravante por falta de pago en término (art. 2 Ley 25.323):**
 - 50% adicional sobre indemnizaciones de los arts. 232, 233 y 245 (y art. 246 en el despido indirecto) si el empleador no pagó en tiempo y el trabajador debió iniciar acciones judiciales o administrativas
@@ -275,12 +303,17 @@ Regla operativa: calcular siempre base y tope por separado. Doctrina "Vizzoti" (
 
 #### Extinción durante el período de prueba
 
-**Régimen general (art. 92 bis LCT) [VERIFICAR VIGENCIA: Decreto 70/2023 y Ley 27.742 - el plazo y las condiciones del período de prueba fueron modificados; confirmar texto vigente]:**
+**Regimen general (art. 92 bis LCT) - DOS regimenes segun fecha de inicio del contrato:**
 
-- El empleador puede extinguir sin expresión de causa durante el período de prueba, con preaviso de 15 días. La omisión del preaviso genera la indemnización sustitutiva correspondiente.
-- No genera derecho a indemnización por antigüedad (art. 245).
-- Plazo general: 3 meses (texto original LCT). Post-Ley 27.742: 6 meses para empresas de hasta 5 empleados, con posibilidad de extensión convencional. Verificar el plazo aplicable al empleador concreto.
-- Limitación: el empleador no puede contratar al mismo trabajador bajo período de prueba más de una vez. El uso abusivo o fraudulento del período de prueba puede equipararse a contrato definitivo.
+*Regimen reformado (contratos iniciados post-30-dic-2023 - VIGENTE):*
+- Plazo: **8 meses** como regla general (DNU 70/2023 + Ley 27.742 consolidacion). No es 6 meses ni es solo para empresas pequenas: es 8 meses para todos los empleadores.
+- El empleador puede extinguir sin expresion de causa durante el periodo de prueba, con preaviso de 15 dias.
+- No genera derecho a indemnizacion por antiguedad (art. 245).
+- Limitacion: el empleador no puede contratar al mismo trabajador bajo periodo de prueba mas de una vez.
+
+*Regimen original (contratos iniciados pre-30-dic-2023):*
+- Plazo: 3 meses (texto original art. 92 bis LCT).
+- Resto igual al regimen reformado.
 
 Alertas específicas:
 - Verificar siempre si el período de prueba estaba vigente al momento de la extinción o si ya había vencido: una extinción "durante el período de prueba" cuando este ya venció genera todos los derechos del despido sin causa.
@@ -544,6 +577,8 @@ Estrategia de análisis desde el empleador:
 
 ---
 
-*Última actualización: mayo 2026*
-*Normativa base: LCT (Ley 20.744) y modificatorias, Ley 24.013, Ley 25.323, Ley 24.557, Ley 26.773, Ley 27.348, Ley 27.555, Decreto 70/2023, Ley 27.742 (Ley Bases)*
+*Ultima actualizacion: mayo 2026*
+*Normativa base: LCT (Ley 20.744 reformada por DNU 70/2023 + Ley 27.742), Ley 24.013, Ley 25.323, Ley 24.557, Ley 26.773, Ley 27.348, Ley 27.555*
+*Reforma laboral vigente operacionalmente desde Acuerdo Pleno CNAT abril 2026 (levantamiento cautelar CGT)*
+*Incorpora audit de gaps post-reforma 2024: Diego Fernandez - Sovra (mayo 2026)*
 *Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
