@@ -280,10 +280,25 @@ Alertas de diagnóstico por tipo de contrato:
 - Pacto de retroventa y retracto: verificar vigencia y plazos
 
 **Locación (arts. 1187-1226 CCCN):**
-- **Ley 27.551 y modificatorias:** actualizaciones, plazos mínimos, restricciones a garantías
-- **Alerta de inestabilidad normativa:** el régimen de locaciones urbanas sufrió modificaciones frecuentes y significativas entre 2020 y 2024 (Ley 27.551, Ley 27.737, DNU 70/2023). Antes de aplicar cualquier regla sobre plazo mínimo, actualización del precio, garantías admisibles o rescisión anticipada, verificar el texto vigente al momento del contrato y al momento de la consulta. No asumir que el régimen que rigió un contrato anterior es el mismo que rige uno nuevo.
+
+**Atención: cambio normativo material desde dic-2023. Tres regímenes según fecha del contrato.**
+
+| Período del contrato | Régimen aplicable |
+|---|---|
+| Antes del 30-jun-2020 | CCCN arts. 1187 y ss. (régimen original) |
+| 30-jun-2020 a 29-dic-2023 | Ley 27.551 + Ley 27.737 (modificatoria) - plazos mínimos, actualización por ICL/IPC/CER, garantías taxativas |
+| Desde el 30-dic-2023 | **Ley 27.551 y Ley 27.737 DEROGADAS por DNU 70/2023.** Rige CCCN con libertad contractual amplia |
+
+Reglas del régimen vigente (contratos desde 30-dic-2023):
+- Plazo: libre; a falta de pacto expreso, 2 años para vivienda permanente y 3 años para otros destinos (art. 1198 CCCN)
+- Precio: libre, en cualquier moneda y con el índice de actualización que las partes acuerden
+- Garantías admisibles: las partes negocian libremente - no rigen las restricciones de la Ley 27.551
+- Rescisión anticipada del locatario: indemnización equivalente al 10% del monto total del canon restante a abonar; sin ese mínimo si la rescisión opera después de transcurridos 6 meses del contrato (art. 1221 CCCN, régimen base)
+
+Regla de transición: los contratos firmados durante la vigencia de la Ley 27.551 / 27.737 mantienen su régimen original - no retroactividad.
+
 ```
-[VERIFICAR VIGENCIA: régimen de locaciones urbanas - Ley 27.551 y modificatorias al momento del contrato]
+[VERIFICAR FECHA DE CELEBRACIÓN: el régimen aplicable depende del momento del contrato, no del momento de la consulta - determinar cuál de los tres regímenes rige antes de analizar cualquier cláusula]
 ```
 - Desalojo: proceso específico; verificar plazos de intimación previa y procedimiento según fuero
 
@@ -299,6 +314,32 @@ Alertas de diagnóstico por tipo de contrato:
 **Contrato de obra y servicios (arts. 1251-1279 CCCN):**
 - Responsabilidad del constructor por ruina de obra (art. 1273 CCCN): plazo de 10 años
 - Garantía por obra: 1 año desde la recepción (art. 1275 CCCN)
+
+### Obligaciones en moneda extranjera (arts. 765 y 766 CCCN reformados)
+
+**Fuente:** DNU 70/2023 reformó los arts. 765 y 766 CCCN, vigente desde el 30-dic-2023. Vigencia formal no controvertida. Subsiste discusión doctrinal y jurisprudencial incipiente sobre su articulación con las disposiciones de orden público del CCCN - en particular, si la reforma habilita plena libertad de moneda en contratos con consumidores o si el estatuto del consumidor (arts. 1092 y ss. CCCN + LDC) opera como límite. Antes de asesorar en ese cruce específico, verificar criterio del fuero.
+
+**Dos regímenes según el origen de la obligación:**
+
+Régimen original (obligaciones nacidas antes del 30-dic-2023):
+- Art. 765 original: las obligaciones en moneda extranjera eran consideradas de dar cantidades de cosas. El deudor podía liberarse pagando en moneda nacional al tipo de cambio oficial del día del vencimiento.
+- Consecuencia práctica: en un contexto de brecha cambiaria significativa, el deudor podía cancelar en pesos a cotización oficial y el acreedor debía aceptarlo como pago liberatorio.
+
+Régimen reformado (obligaciones nacidas desde el 30-dic-2023):
+- Libertad de partes: las obligaciones pueden pactarse en cualquier moneda.
+- Cumplimiento en la moneda pactada: el deudor no puede liberarse pagando en moneda distinta a la estipulada, salvo aceptación expresa del acreedor.
+- El art. 766 reformado regula el modo de pago en moneda extranjera.
+
+Regla operativa: verificar fecha del contrato u origen de la obligación antes de analizar cualquier reclamo por incumplimiento en moneda extranjera. El régimen determina si el deudor puede o no sustituir moneda.
+
+```
+[VERIFICAR RÉGIMEN APLICABLE: obligación en moneda extranjera - fecha de origen determina si aplica art. 765 CCCN original (sustitución posible) o reformado por DNU 70/2023 (pago en moneda pactada)]
+```
+
+Alertas específicas:
+- Contratos de compraventa de inmuebles, préstamos, honorarios y cualquier obligación dineraria pactada en USD celebrada antes del 30-dic-2023: el deudor podía sustituir moneda al régimen original; verificar si hubo pago en esas condiciones antes de reclamar diferencia
+- Contratos post-30-dic-2023: el acreedor puede exigir el pago en la moneda pactada; el deudor no puede liberarse unilateralmente en pesos
+- Obligaciones extracontractuales: aplicar régimen vigente al momento del hecho generador del daño
 
 ### Prescripción
 
@@ -387,6 +428,6 @@ Alertas específicas:
 ---
 
 *Última actualización: mayo 2026*
-*Normativa base: CCCN (Ley 26.994), LDC (Ley 24.240), Ley 17.418 (seguros), Ley 24.449 (tránsito), Ley 27.551 y modificatorias (locaciones)*
+*Normativa base: CCCN (Ley 26.994) - arts. 765/766 reformados por DNU 70/2023, LDC (Ley 24.240), Ley 17.418 (seguros), Ley 24.449 (tránsito). Locaciones: Ley 27.551 y Ley 27.737 derogadas por DNU 70/2023 desde el 30-dic-2023; contratos previos mantienen su régimen.*
 *Nota: para hechos o contratos anteriores al 1° de agosto de 2015, verificar régimen CC/CCom aplicable*
 *Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
