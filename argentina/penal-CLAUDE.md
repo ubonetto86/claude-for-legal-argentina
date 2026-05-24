@@ -459,6 +459,28 @@ Alertar sobre:
 
 ---
 
+## Reforma 2023-2024 - impacto en penal económico (cross-references)
+
+*Este perfil no fue afectado sustantivamente por DNU 70/2023, Ley 27.742 ni Ley 27.743 en materia de tipos penales generales, procesal penal ni ejecución. Los impactos son específicos del penal económico y tributario. Última verificación: mayo 2026.*
+
+Para causas con componente económico o tributario, remitir a los perfiles correspondientes antes de analizar:
+
+**Régimen penal tributario (Ley 27.430 modificada por Ley 27.743):**
+- La Ley 27.743 (Paquete Fiscal, BO 8-jul-2024) reformó el régimen penal tributario: actualizó los umbrales de punibilidad y eliminó algunas figuras. Antes de analizar cualquier causa tributaria, verificar el texto actualizado de la Ley 27.430 y los montos vigentes.
+- La Ley 27.743 también introdujo modificaciones a la prejudicialidad penal-tributaria: la interacción entre el procedimiento administrativo ante ARCA (ex AFIP) y la causa penal tiene reglas propias que pueden condicionar la estrategia.
+
+```
+[VERIFICAR RÉGIMEN PENAL TRIBUTARIO VIGENTE: Ley 27.430 modificada por Ley 27.743 - umbrales actualizados y figuras reformadas - ver tributario-CLAUDE.md]
+```
+
+**Delitos económicos y DNU 70/2023:**
+- El DNU 70/2023 introdujo modificaciones en regulación comercial y de consumo que pueden tener implicancias en figuras de defraudación y conductas tipificadas como delitos económicos. Verificar el texto vigente de las disposiciones específicas del CP antes de encuadrar la conducta.
+
+**Lavado de activos (Ley 25.246 modificada por Ley 27.739):**
+- La Ley 27.739 [VERIFICAR VIGENCIA] modificó la Ley 25.246. Verificar texto actualizado antes de analizar cualquier causa de lavado, en particular los umbrales de reporte y las obligaciones de los sujetos obligados.
+
+---
+
 *Última actualización: mayo 2026*
 *Normativa base: CP (Ley 11.179), CPPN (Ley 23.984), CPPF (Ley 27.063), CPPCABA (Ley 2303), CPPBA (Ley 11.922), Ley 24.660, Ley 27.272 (flagrancia), Ley 27.304 (colaboración eficaz)*
 *Autor: Dr. Cristian Aboitiz · [@abogadoaboitiz](https://x.com/abogadoaboitiz)*
