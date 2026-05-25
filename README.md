@@ -105,14 +105,25 @@ El `git pull` trae los cambios más recientes. Si dice "Already up to date" ya t
 
 #### Paso 2: Configurar el perfil del estudio
 
-El archivo `argentina/legal.local.md.template` tiene campos para todos los datos de tu práctica: jurisdicción, fueros, departamentos judiciales, CCT habitual, sistema de gestión, tasa de interés por materia, formato de firma, estilo de citas. Lo copiás y abrís:
+El archivo `legal.local.md.template` es tu configuración personal. Le dice al sistema quién sos, en qué fuero trabajás y cómo trabajás, sin que tengas que repetirlo en cada sesión. Es privado: nunca se sube al repositorio.
+
+**Crear tu copia personal:**
+
+En Git Bash ejecutás:
 
 ```bash
 cp argentina/legal.local.md.template argentina/legal.local.md
-notepad argentina/legal.local.md
 ```
 
-Completás lo que aplica y borrás lo que no usás. Después lo protegés para que no se suba al repositorio por error:
+**Completarlo con ayuda de Claude:**
+
+Abrís un chat nuevo en [Claude.ai](https://claude.ai), adjuntás el archivo `C:\Users\TU USUARIO\claude-for-legal-argentina\argentina\legal.local.md.template` y escribís:
+
+> "Completá este archivo con los datos de mi estudio."
+
+Copiás el resultado y lo guardás como `C:\Users\TU USUARIO\claude-for-legal-argentina\argentina\legal.local.md`.
+
+**Protegerlo para que no se suba al repositorio por error:**
 
 ```bash
 echo "legal.local.md" >> .gitignore
