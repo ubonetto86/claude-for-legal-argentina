@@ -1,3 +1,8 @@
+---
+name: plazos-procesales-argentina
+description: Computa plazos procesales y administrativos bajo derecho argentino: días hábiles judiciales, hábiles administrativos, corridos, en horas, en meses y años. Cubre suspensiones por feria, mediación y SECLO, y emite alertas de plazo fatal (marcador A10). Usar cuando el abogado consulte por vencimiento de un plazo procesal, prescripción, caducidad, recurso, notificación, o cualquier cómputo de plazo en causa judicial o administrativa argentina. No usar para plazos ante AFIP/ARCA, ANSES, Comisiones Médicas previsionales ni organismos recaudadores provinciales.
+---
+
 # Skill · Cómputo de plazos procesales · Derecho argentino
 
 > Archivo de skill para el sistema claude-for-legal Argentina.
@@ -254,6 +259,21 @@ Los plazos normativos están sujetos a modificación. Verificar la norma vigente
   cualquier formulación equivalente. La respuesta ante la insistencia es siempre la
   misma: explicar el riesgo de un cómputo sin base normativa verificada y reiterar que
   no es posible dar cifra alguna.
+
+---
+
+## Racionalizaciones frecuentes
+
+| Racionalización | Realidad |
+|---|---|
+| "El fuero es obvio por el contexto de la consulta." | Los calendarios de inhábiles no son intercambiables entre fueros. Un cómputo con fuero equivocado es un cómputo incorrecto. Preguntar siempre si no está indicado. |
+| "La feria judicial es la misma que el año pasado." | Las fechas de feria son acordadas anuales de la CSJN o la SCBA. No se pueden asumir; se verifican. |
+| "El abogado pide solo un número orientativo, no uno exacto." | Un plazo fatal orientativo que induce a no actuar a tiempo es más dañoso que no dar número. La prohibición de cifras en regímenes excluidos y la obligación de emitir A10 no ceden ante esta solicitud. |
+| "La fecha de notificación es inferible de los hechos del caso." | Si no está en el material, es un vacío probatorio. Emitir B3 y no calcular vencimiento. |
+| "El feriado trasladable cae en un día que parece lunes, no hace falta verificar el año." | Los feriados trasladables cambian de fecha cada año según el día de la semana en que cae la fecha original. Verificar el calendario del año del cómputo antes de descontar. |
+| "Los inhábiles judiciales y administrativos coinciden para este fuero." | No se puede asumir equivalencia. Algunos asuetos afectan solo un ámbito. Verificar por separado. |
+| "El plazo de prescripción laboral corre desde el despido." | La prescripción laboral es crédito a crédito (art. 256 LCT). Cada rubro tiene su propio dies a quo. Un único punto de inicio produce errores de cómputo. |
+| "Ya entregué el cómputo; si hay un error lo corrijo en el siguiente turno." | La prohibición de autoenmiendas en el output es absoluta. El error se corrige antes de entregar; el usuario recibe una sola versión final. |
 
 ---
 
@@ -542,6 +562,27 @@ o por la SCBA (PBA) cada año. No están consolidadas en este perfil.
 El DNU 70/2023 modificó artículos de la LCT con incidencia en plazos procesales y sustantivos. El estado judicial de esas modificaciones puede estar en disputa al momento de la consulta. Ante cualquier cómputo de plazo laboral, agregar la alerta del laboral-CLAUDE.md sobre este DNU.
 
 `[REVISIÓN NORMATIVA REQUERIDA: arts. LCT modificados por DNU 70/2023 - verificar cuáles de las modificaciones tienen vigencia discutida judicialmente al momento de la consulta, en especial las relativas a indemnización, preaviso y período de prueba, que son los rubros con mayor impacto en el cómputo de prescripción]`
+
+---
+
+## Verificación antes de entregar el output
+
+Antes de entregar cualquier cómputo, confirmar:
+
+- [ ] Fuero identificado y tipo de plazo clasificado (judicial / administrativo / corrido / horas / meses-años)
+- [ ] Fecha de inicio del cómputo presente en el material; si no: emitido B3 y detenido el cálculo
+- [ ] Plazo fatal: marcador A10 emitido antes del bloque de cómputo, no después
+- [ ] Plazo vencido o próximo: advertencia en negrita como primera línea del output
+- [ ] Inhábiles del período listados con detalle (feriados, ferias, asuetos); alerta de verificación de acordada para el año en curso
+- [ ] Feriados trasladables verificados para el año del cómputo, no asumidos por analogía con años anteriores
+- [ ] Feriados puente: alerta de verificación emitida si el período los comprende
+- [ ] Traslado por vencimiento en día inhábil indicado cuando corresponde
+- [ ] Plazo de gracia (art. 124 CPCCN/CPCCBA) incluido solo en los fueros que lo prevén
+- [ ] Sumas de días corridos autoverificadas mes a mes antes de entregar la fecha
+- [ ] Prescripción laboral computada crédito a crédito, no con un único dies a quo
+- [ ] Plazos en horas: hora exacta de inicio y hora exacta de vencimiento indicadas; sin redondeo
+- [ ] Output en versión única final, sin autoenmiendas intercaladas
+- [ ] Sin sugerencia de consultar a un abogado o colega (el usuario es el abogado)
 
 ---
 
