@@ -244,6 +244,8 @@ El impuesto cedular del 15% sobre transferencias de inmuebles (art. 99 inc. b Le
 - El hecho de que el empleador del vendedor practique retenciones de cuarta categoría no modifica ni absorbe la obligación cedular por la venta del inmueble.
 - El vendedor empleado en relación de dependencia que vende un inmueble no exento debe liquidar el 15% cedular en su DDJJ anual de forma separada e independiente de su liquidación de haberes.
 
+**Instrucción operativa:** ante la opción de reemplazo, no escriturar sin que el vendedor exhiba el certificado de no retención emitido por ARCA vía servicio "Transferencia de Inmuebles". La ausencia del certificado implica que la opción no fue formalmente ejercida.
+
 ```
 [CEDULAR INMOBILIARIO: el escribano no retiene - verificar exención vivienda única o certificado de no retención ARCA - servicio "Transferencia de Inmuebles" - art. 99 inc. b Ley 20.628]
 ```
