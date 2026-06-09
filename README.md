@@ -336,70 +336,55 @@ No son necesarios para empezar. Los perfiles funcionan solos. Los conectores mej
 
 ---
 
-### Cómo instalar los conectores
+### MCP LEGAL AR - 8 conectores en 1 (recomendado)
 
-Hay tres formas de instalar un conector. La más simple para abogados sin experiencia técnica es la primera.
+Hub unificado que concentra las principales fuentes jurídicas argentinas en un solo servidor local. Sin servidores externos, sin dependencia de terceros.
 
-#### Opción 1: Por URL en Claude.ai - sin instalar nada (recomendada)
+**[GitHub](https://github.com/cristianaboitiz-eng/mcp-legal-ar)** · Instalación: ver README del repositorio.
 
-Funciona para todos los conectores voftec (BOPBA, Normativa PBA, BORA, JUBA, InfoLeg, PJN consulta, PJN jurisprudencia, PTN, TFN). El proceso es idéntico para todos:
+| Conector incluido | Fuente | Función |
+|---|---|---|
+| **BORA** | Boletín Oficial de la Nación | Normas nacionales publicadas, nuevas sociedades, licitaciones |
+| **InfoLeg** | infoleg.gob.ar | Texto oficial de normas nacionales, vigencia y articulado |
+| **BOPBA** | Boletín Oficial PBA | Normas publicadas en el BOPBA, búsqueda por fecha y número |
+| **Normativa PBA** | normas.gba.gob.ar | Legislación provincial PBA: texto, vigencia, articulado |
+| **SCBA** | scba.gov.ar | Sentencias y resoluciones de primera instancia PBA |
+| **JUBA** | juba.scba.gov.ar | Fallos SCBA y cámaras de apelación PBA |
+| **PTN** | busquedadictamenes.ptn.gob.ar | Dictámenes de la Procuración del Tesoro de la Nación |
+| **TFN** | tfn.gob.ar | Jurisprudencia y resoluciones TFN: impositivo y aduanero, descarga PDF |
 
-1. En [Claude.ai](https://claude.ai) entrás a **Settings → Integrations → Add MCP Server**.
-2. En el campo URL pegás la URL del conector (ver tabla abajo).
-3. Le ponés un nombre descriptivo, por ejemplo `JUBA - Jurisprudencia PBA`.
-4. Guardás. El conector queda disponible en todos tus Projects.
-
-No requiere instalar ningún programa adicional.
-
-#### Opción 2: Por comando (conectores de la comunidad)
-
-Algunos conectores se instalan con un comando en la terminal. Solo aplica si ya tenés Claude Code instalado.
-
-#### Opción 3: Instalación manual desde GitHub
-
-Para usuarios con experiencia técnica. Ver el README de cada repositorio.
+**Nota sobre Normativa PBA:** la herramienta de vigencia consulta normas.gba.gob.ar y reproduce su estado tal como está cargado. El portal puede tener errores en relaciones de derogación. Usalo como primer filtro y verificá siempre contra el Boletín Oficial PBA ante cualquier resultado que parezca anómalo.
 
 ---
 
-### Conectores voftec
+### PJN - Expedientes y Jurisprudencia (no cubiertos por MCP LEGAL AR)
 
-Todos tienen instalación por URL (Opción 1). Todos son gratuitos.
+Instalación por URL en Claude.ai: **Settings → Integrations → Add MCP Server**.
 
-| Conector | Qué hace | URL para instalar |
+| Conector | Qué hace | Repositorio |
 |---|---|---|
-| **BORA** - Boletín Oficial nacional | Normas nacionales publicadas, nuevas sociedades, licitaciones | `https://bora-mcp.vercel.app` |
-| **BOPBA** - Boletín Oficial PBA | Normas publicadas en el BOPBA, búsqueda por fecha y número | `https://bopba-mcp.vercel.app` |
-| **InfoLeg** - Legislación nacional | Texto oficial de normas nacionales desde infoleg.gob.ar | `https://infoleg-mcp.vercel.app` |
-| **Normativa PBA** | Legislación provincial PBA: texto, vigencia, articulado | `https://normativapba-mcp.vercel.app` |
-| **JUBA** - Jurisprudencia PBA | Fallos SCBA y cámaras de apelación PBA | `https://juba-mcp.vercel.app` |
-| **PJN** - Expedientes | Consulta de expedientes PJN: estado, movimientos, carátula | `https://pjn-consulta-mcp.vercel.app` |
-| **PJN** - Jurisprudencia | Fallos, sentencias y resoluciones de fueros federales PJN | `https://pjn-juris-mcp.vercel.app` |
-| **PTN** - Dictámenes | Dictámenes de la Procuración del Tesoro de la Nación | `https://ptn-mcp.vercel.app` |
-| **TFN** - Tribunal Fiscal de la Nación | Jurisprudencia y resoluciones TFN: impositivo y aduanero, 16 herramientas, descarga PDF | `https://tfn-mcp.vercel.app` |
+| **PJN** - Expedientes | Estado procesal de causas: movimientos, carátula, fecha de última actuación | [GitHub](https://github.com/voftec/pjn-consulta-mcp) |
+| **PJN** - Jurisprudencia | Fallos y sentencias federales para investigación previa a la redacción de escritos | [GitHub](https://github.com/voftec/pjn-juris-mcp) |
 
-**Nota sobre Normativa PBA:** la herramienta de vigencia consulta el portal normas.gba.gob.ar y reproduce su estado tal como está cargado. El portal puede tener errores en relaciones de derogación. Usalo como primer filtro y verificá siempre contra el Boletín Oficial PBA ante cualquier resultado que parezca anómalo.
-
-**Diferencia entre los dos conectores PJN:** PJN-Expedientes consulta el estado procesal de un expediente (movimientos, carátula, fecha de última actuación). PJN-Jurisprudencia devuelve el texto de fallos y sentencias para investigación previa a la redacción de escritos. Son complementarios, no equivalentes.
-
-**Disponibilidad de los conectores:** las URLs de esta tabla fueron verificadas en junio 2026. Antes de usar cualquier conector en una sesión real, hacé una consulta de prueba. Si no responde, usá la fuente primaria directamente (links al final de esta sección).
+Son complementarios, no equivalentes.
 
 ---
 
 ### Conectores de la comunidad
 
-Requieren instalación por comando o manual. Los conectores con `uvx` requieren Claude Code instalado. Los que se instalan manualmente desde GitHub (como `scba-mcp-server`) funcionan con Claude Desktop sin Claude Code.
+Requieren instalación por comando o manual. Los conectores con `uvx` requieren Claude Code instalado. Los que se instalan manualmente desde GitHub funcionan con Claude Desktop sin Claude Code.
 
 | Conector | Fuente | Función | Instalación |
 |---|---|---|---|
 | saij-mcp | SAIJ | Jurisprudencia, legislación, doctrina y dictámenes | `claude mcp add saij-mcp -- uvx saij-mcp` · [GitHub](https://github.com/hernan-cc/saij-mcp) |
 | csjn-mcp | CSJN | Fallos de la Corte Suprema | `claude mcp add csjn-mcp -- uvx csjn-mcp` · [GitHub](https://github.com/hernan-cc/csjn-mcp) |
 | juscaba-mcp | JUSCABA | Jurisprudencia fueros nacionales con sede en CABA | `claude mcp add juscaba-mcp -- uvx juscaba-mcp` · [GitHub](https://github.com/hernan-cc/juscaba-mcp) |
-| saij-mcp (Escalante) | SAIJ | Investigación profunda: grafo legal, OCR para PDFs históricos | Ver [repositorio](https://github.com/joaquinescalante23/saij-mcp) |
-| guidobonomini | Local | Análisis semántico y terminológico de textos jurídicos | Ver [repositorio](https://github.com/guidobonomini/argentina-law-mcp-server) |
-| macos-use | Desktop | Automatización de portales sin API (PJN, SCBA, IGJ) - solo Mac, solo Claude Code | Ver [repositorio](https://github.com/mediar-ai/mcp-server-macos-use) |
-| scba-mcp-server | SCBA | Sentencias y resoluciones de primera instancia PBA (sentencias.scba.gov.ar): búsqueda por organismo, fecha y texto libre; descarga y guarda documentos en disco. Requiere Chrome + chromedriver instalados localmente. No cubre JUBA (Cámaras / SCBA). | Ver [repositorio](https://github.com/FacundoEmanuel/scba-mcp-server) |
+| saij-mcp (Escalante) | SAIJ | Investigación profunda: grafo legal, OCR para PDFs históricos | [GitHub](https://github.com/joaquinescalante23/saij-mcp) |
+| guidobonomini | Local | Análisis semántico y terminológico de textos jurídicos | [GitHub](https://github.com/guidobonomini/argentina-law-mcp-server) |
+| macos-use | Desktop | Automatización de portales sin API (PJN, SCBA, IGJ) - solo Mac, solo Claude Code | [GitHub](https://github.com/mediar-ai/mcp-server-macos-use) |
+| scba-mcp-server | SCBA | Sentencias y resoluciones de primera instancia PBA (sentencias.scba.gov.ar): búsqueda por organismo, fecha y texto libre; descarga y guarda documentos en disco. Requiere Chrome + chromedriver instalados localmente. No cubre JUBA (Cámaras / SCBA). | [GitHub](https://github.com/FacundoEmanuel/scba-mcp-server) |
 
-**Ecosistema Hernán Caravario (hernan-cc):** saij-mcp, csjn-mcp y juscaba-mcp son parte del mismo ecosistema. Podés instalar los tres en simultáneo; Claude elige cuál usar según la consulta. Ver todos en [github.com/hernan-cc](https://github.com/hernan-cc) y [hernancc.com/mcp-tools](https://hernancc.com/mcp-tools).
+**Ecosistema Hernán Caravario (hernan-cc):** saij-mcp, csjn-mcp y juscaba-mcp son parte del mismo ecosistema. Podés instalar los tres en simultáneo; Claude elige cuál usar según la consulta. Ver todos en [github.com/hernan-cc](https://github.com/hernan-cc).
 
 ---
 
