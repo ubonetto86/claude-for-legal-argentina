@@ -128,7 +128,14 @@ antes de asesorar sobre esta figura.
 
 ### Derecho penal juvenil
 
-- **Régimen Penal de la Minoridad (Decreto-Ley 22.278 y modificatorias - Leyes 22.803, 23.264 y 23.742):** vigente. No imputabilidad absoluta hasta los 16 años; imputabilidad relativa entre 16 y 18. No hubo reforma legislativa general al cierre de esta actualización (junio 2026); verificar si hubo sanción posterior antes de aconsejar sobre imputabilidad.
+- **Régimen Penal de la Minoridad (Decreto-Ley 22.278 y modificatorias - Leyes 22.803, 23.264 y 23.742):** vigente. No hubo reforma legislativa general al cierre de esta actualización (junio 2026); verificar si hubo sanción posterior antes de aconsejar sobre imputabilidad.
+
+Esquema de imputabilidad (art. 1° DL 22.278 texto según Ley 22.803):
+- No punible absoluto: menor que no haya cumplido 16 años (cualquier delito).
+- No punible relativo: menor de 16 a 18 años respecto de delitos de acción privada, o reprimidos con pena privativa de libertad que no exceda de 2 años, o con multa, o con inhabilitación.
+- Punible: menor de 16 a 18 años en los demás casos (art. 2°), con sujeción al régimen tutelar del art. 4° (requiere: declaración de responsabilidad penal, cumplimiento de 18 años, y periodo de tratamiento tutelar no inferior a 1 año). La imposición de pena es facultativa: si no fuere necesaria, el juez absuelve.
+
+Alerta: la "no punibilidad relativa" del menor de 16 a 18 años no impide la disposición tutelar; el juez puede disponer del menor aunque no le aplique pena (arts. 1° y 3° DL 22.278).
 
 ### Organismos y fuentes primarias
 
@@ -283,6 +290,96 @@ Alertas específicas:
 - Verificar si el acuerdo incluye la acción civil o solo la penal
 - En flagrancia (Ley 27.272): el juicio abreviado tiene reglas propias de negociación con el fiscal; no transpolar el régimen ordinario sin verificación
 - El rechazo judicial del acuerdo no impide su nueva presentación con modificaciones; verificar criterio del fuero sobre efectos del rechazo
+
+### Suspensión del proceso a prueba (probation)
+
+Normativa:
+- Arts. 76 bis, 76 ter y 76 quater CP [VERIFICAR VIGENCIA]
+- Normas procesales por fuero (verificar artículo específico en cada código):
+  - CPPN: arts. 293 y ss.
+  - CPPF: arts. 34 inc. e) y 295 y ss.
+  - CPPCABA: arts. 205 y ss.
+  - CPPBA: arts. 404 y ss.
+
+**Presupuestos de procedencia (art. 76 bis CP):**
+
+- Delito de acción pública con pena de reclusión o prisión cuyo máximo no exceda de tres años (art. 76 bis primer párrafo). En casos de concurso de delitos, el máximo aplicable al concurso no debe exceder de tres años (segundo párrafo). Atención: el cuarto párrafo del art. 76 bis habilita la suspensión cuando las circunstancias del caso permitirían condena condicional, aunque la pena máxima supere los tres años, pero requiere consentimiento del fiscal. Esta segunda vía es la que genera el debate jurisprudencial; verificar criterio del fuero.
+- El imputado debe ofrecer hacerse cargo de la reparación del daño en la medida de lo posible, sin que ello implique confesión ni reconocimiento de responsabilidad civil (art. 76 bis tercer párrafo). La parte damnificada puede aceptar o rechazar la reparación; si la rechaza, queda habilitada la acción civil.
+- El imputado debe abandonar en favor del Estado los bienes que presumiblemente resultarían decomisados si hubiera condena (art. 76 bis sexto párrafo).
+- Si el delito está reprimido con pena de multa conjunta o alternativa con prisión, debe pagarse el mínimo de la multa correspondiente (art. 76 bis quinto párrafo).
+
+```
+[VERIFICAR IMPLEMENTACIÓN CPPF: confirmar si el fuero tiene operativo el régimen de suspensión del proceso a prueba bajo el CPPF o si aún aplica el CPPN]
+```
+
+**Rol del fiscal:**
+
+En el CPPN el fiscal emite dictamen pero el juez no está vinculado por su oposición si los presupuestos legales están reunidos (doctrina CSJN, "Acosta" - aportar fallo para citar). En los sistemas acusatorios (CPPF, CPPCABA, CPPBA) la posición del fiscal tiene mayor peso por la lógica dispositiva del sistema; verificar criterio del tribunal antes de litigar contra la oposición fiscal.
+
+```
+[INSERTAR FALLO CSJN VERIFICADO: "Acosta" - procedencia de la suspensión del proceso a prueba sin conformidad fiscal cuando se reúnen los presupuestos legales]
+```
+
+**Rol del querellante:**
+
+- CPPN: el querellante puede oponerse. La oposición fundada en razones de política criminal puede ser atendida por el tribunal; el criterio varía por sala y fuero.
+- CPPCABA: el querellante tiene legitimación autónoma; su oposición tiene mayor peso en el régimen acusatorio.
+- CPPBA: verificar criterio del departamento judicial.
+
+Alerta: en causas con querellante constituido, evaluar su posición antes de presentar la solicitud.
+
+**Plazo y condiciones (art. 76 ter CP):**
+
+- Plazo: entre uno y tres años, fijado por el tribunal.
+- Reglas de conducta: el tribunal puede imponer las del art. 27 bis CP (abstención de conductas, presentaciones periódicas, tratamientos, trabajo comunitario, etc.).
+- Durante el plazo: el imputado no puede ser perseguido penalmente por el mismo hecho; si comete nuevo delito doloso, la probation se revoca.
+- Al vencimiento sin revocación: la acción penal se extingue si el imputado cumplió las tres condiciones acumulativas: no cometió delito, reparó los daños en la medida ofrecida, y cumplió las reglas de conducta (art. 76 ter cuarto párrafo). Si la suspensión se llevó a juicio por comisión de nuevo delito, la pena resultante no puede dejarse en suspenso.
+
+**Revocación (art. 76 ter CP):**
+
+Causales: comisión de nuevo delito durante el plazo (doloso o culposo - el texto no limita a doloso); incumplimiento de reglas de conducta; incumplimiento de la reparación del daño cuando el imputado pudiera cumplirla; aparición de circunstancias que modifiquen el máximo de la pena aplicable o la estimación sobre la condicionalidad de la condena. Revocada la suspensión, el proceso continúa; el tiempo transcurrido no computa a ningún efecto.
+
+**Segunda suspensión:**
+
+Puede concederse si el nuevo delito fue cometido después de transcurridos ocho años desde la expiración del plazo de la suspensión anterior. No se admite nueva suspensión si la primera fue incumplida (art. 76 ter séptimo y octavo párrafos).
+
+```
+[ALERTA PLAZO FATAL: vencimiento de la probation - fecha de resolución + plazo fijado - verificar reglas de conducta vigentes y estado de cumplimiento]
+```
+
+**Delitos excluidos:**
+
+- Delitos reprimidos con pena de inhabilitación como pena principal o conjunta: no procede (art. 76 bis noveno párrafo).
+- Delitos cometidos por funcionarios públicos en ejercicio de sus funciones: no procede (art. 76 bis octavo párrafo).
+- Delitos del Código Aduanero (Ley 22.415) y del Régimen Penal Tributario (Ley 24.769 y sus modificatorias - actualmente Título IX de la Ley 27.430): no procede (art. 76 bis último párrafo, incorporado por Ley 26.735). [REVISIÓN NORMATIVA REQUERIDA: confirmar si la referencia a "Ley 24.769 y sus modificatorias" en el art. 76 bis alcanza al Título IX de la Ley 27.430 que la derogó, o si subsiste un debate interpretativo en el fuero]
+
+**Violencia de género - alerta específica:**
+
+La tendencia jurisprudencial dominante en CABA, PBA y fuero federal deniega la probation en causas por violencia de género y delitos contra la integridad sexual, por aplicación de la Convención de Belém do Pará y la Ley 26.485. El criterio no es uniforme en todos los fueros ni para todos los tipos penales de la Ley 26.485; verificar antes de presentar la solicitud.
+
+```
+[INSERTAR FALLO VERIFICADO: sala/fuero - criterio sobre admisibilidad de probation en causas de violencia de género]
+```
+
+**Preguntas de diagnóstico:**
+
+- ¿Cuál es el delito imputado y cuál es su pena máxima?
+- ¿El imputado tiene condena por delito doloso en los últimos ocho años?
+- ¿El fuero tramita bajo CPPN, CPPF u otro código? ¿El fiscal ya expresó posición?
+- ¿Hay querellante constituido? ¿Cuál es su posición probable?
+- ¿La causa involucra violencia de género o delito contra la integridad sexual?
+- ¿El imputado puede ofrecer reparación del daño? ¿Hay bienes sujetos a decomiso?
+- ¿El imputado tiene causas paralelas en trámite? (la probation no impide la persecución por otros hechos)
+
+**Alertas específicas:**
+
+- La oferta de reparación del daño no implica reconocimiento de responsabilidad civil: dejarlo expresamente sentado en la presentación.
+- Si el imputado está detenido: la probation no opera como excarcelación automática; resolver la situación cautelar por la vía que corresponda.
+- En concurso de delitos: la probation requiere que todos los delitos del concurso sean susceptibles de suspensión; un solo delito excluido bloquea la solicitud.
+- Verificar si hay acción civil en curso: la suspensión del proceso penal no suspende la acción civil.
+- El plazo de la probation suspende el curso de la prescripción de la acción penal (art. 76 ter segundo párrafo); si se revoca, la prescripción se reanuda desde donde estaba.
+
+---
 
 ### Juicio oral
 
@@ -625,7 +722,7 @@ Instituciones clave:
 Alertar sobre:
 - Cómputo de pena (fecha de inicio, descuento de preventiva)
 - Período de observación y calificación de conducta y concepto
-- Modificaciones de la Ley 27.375: reformó art. 14 CP y art. 56 bis Ley 24.660; restringe beneficios (libertad condicional, salidas transitorias, libertad asistida) para los delitos taxativamente enumerados en el art. 56 bis - verificar si el delito condenado está incluido antes de analizar procedencia del beneficio
+- Modificaciones de la Ley 27.375: reformó art. 14 CP y art. 56 bis Ley 24.660; restringe beneficios del período de prueba (libertad condicional, salidas transitorias, libertad asistida, prisión discontinua, semidetención) para los 11 incisos taxativamente enumerados en el art. 56 bis (texto según Ley 27.375, última modificación verificada). El catálogo incluye: homicidios agravados (art. 80 CP); delitos contra integridad sexual (arts. 119, 120, 124, 125, 125 bis, 126, 127, 128 párrs. 1° y 2°, 130 CP); privación ilegal con muerte (art. 142 bis anteúltimo párr.); tortura seguida de muerte (art. 144 ter inc. 2°); arts. 165 y 166 inc. 2° segundo párr. CP; secuestro extorsivo con muerte (art. 170); trata (arts. 145 bis y ter); terrorismo (art. 41 quinquies CP); financiamiento del terrorismo (art. 306 CP); estupefacientes (arts. 5°, 6° y 7° Ley 23.737); delitos aduaneros (arts. 865, 866 y 867 Código Aduanero). Verificar si hubo modificación al catálogo posterior a julio 2017 antes de analizar procedencia de cualquier beneficio.
 - Competencia del juez de ejecución vs. tribunal de juicio según fuero
 
 ---
