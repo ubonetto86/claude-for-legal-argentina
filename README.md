@@ -12,6 +12,8 @@ Cada perfil codifica las reglas que cambian el resultado: plazos diferenciados e
 ## Estructura
 
 ```
+LICENSE                               # Apache License 2.0 - codigo base upstream (Anthropic)
+LICENSE-FORK.md                       # Licencia dual - contenido original de este fork
 argentina/
   CLAUDE.md                         # Perfil general - cargar en todo Project
   CHANGELOG.md                      # Historial de cambios normativos y del sistema
@@ -529,6 +531,20 @@ Si hay abogados argentinos interesados en colaborar, la idea es dividir áreas d
 **Para contribuir directamente**, editá el archivo en tu fork y abrí un Pull Request describiendo el cambio. Si no sabés cómo, mandame el texto por mensaje y lo incorporo yo con la atribución correspondiente. Los cambios con fuente normativa citada se procesan primero.
 
 **Para aportar un caso de verificación**, el sistema incluye una carpeta `evals/` con casos de prueba que permiten comprobar que los perfiles de área detectan vicios y vulnerabilidades procesales de forma consistente. La idea es la misma que un caso de control en la práctica: una pieza procesal con solución conocida que se usa para verificar que la herramienta funciona antes de usarla en un expediente real. Cada caso tiene tres archivos: la pieza anonimizada, la rúbrica con los puntos que el sistema debe identificar, y la solución esperada. Las áreas prioritarias son nulidades procesales penales y vicios formales en contratos. Ver `evals/README.md` para el formato completo.
+
+---
+
+## Licencia
+
+Este repositorio es un fork de [claude-for-legal](https://github.com/anthropics/claude-for-legal) de Anthropic, Inc.
+
+El codigo base del upstream permanece bajo la **Apache License, Version 2.0** - ver archivo `LICENSE` en la raiz del repositorio.
+
+El contenido original desarrollado en este fork (skills argentinas, perfiles de area, prompts de configuracion y adaptaciones al derecho argentino, identificados en `LICENSE-FORK.md`) es obra de autoria propia:
+
+**Copyright (c) 2024-2025 Cristian Aboitiz. Todos los derechos reservados.**
+
+Ese contenido se publica bajo licencia dual: uso no comercial libre con atribucion; uso comercial requiere autorizacion previa. Ver terminos completos en `LICENSE-FORK.md`.
 
 ---
 
