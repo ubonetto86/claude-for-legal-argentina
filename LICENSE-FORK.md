@@ -52,7 +52,7 @@ fines lucrativos - requiere autorizacion previa y expresa del titular.
 
 Para solicitar una licencia comercial:
 
-    contacto: [INSERTAR CONTACTO]
+    contacto: cristianaboitiz@gmail.com
 
 ### 2.c. Restriccion de marca
 

@@ -23,31 +23,36 @@ argentina/
   diagnostico-SKILL.md              # Skill de diagnóstico previo (transversal)
   plazos-SKILL.md                   # Skill de cómputo de plazos procesales y administrativos
   diagnostico-casos-prueba.md       # Casos de prueba para verificar el skill
-  red-flags-contratos.md            # Alertas para revisión de contratos (activ. automática)
-  contratos-CLAUDE.md               # Perfil unificado para revisión y redacción de contratos
+  contratos/                        # Perfil unificado para revisión y redacción de contratos
+    CLAUDE.md                         # Perfil de práctica - contratos bajo derecho argentino
+    red-flags.md                      # Alertas para revisión de contratos (activ. automática)
+    indices-y-tasas.md                # Índices, tasas de referencia y evaluación de abusividad
   administrativo-CLAUDE.md          # Perfil derecho administrativo (federal)
   administrativo/                    # Perfiles jurisdiccionales (complementan al federal)
     administrativo-CABA-CLAUDE.md      # CABA (CCAyT / TSJBA)
+    administrativo-CHACO-CLAUDE.md     # Chaco
     administrativo-PBA-CLAUDE.md       # Buenos Aires (Cámaras CA / SCBA)
     administrativo-CHUBUT-CLAUDE.md    # Chubut (STJ - Sala CA)
     administrativo-CÓRDOBA-CLAUDE.md   # Córdoba (TSJ - Sala CA)
     administrativo-CORRIENTES-CLAUDE.md # Corrientes (STJ - pleno)
     administrativo-ENTRERIOS-CLAUDE.md  # Entre Ríos (STJ - Sala N° 2 / Sala Constitucional y Electoral)
+    administrativo-FORMOSA-CLAUDE.md   # Formosa
     administrativo-MENDOZA-CLAUDE.md   # Mendoza (SCJ - Sala Primera)
     administrativo-MISIONES-CLAUDE.md  # Misiones (STJ - pleno)
     administrativo-NEUQUEN-CLAUDE.md   # Neuquén (TSJ - Sala Procesal Administrativa)
     administrativo-RIONEGRO-CLAUDE.md  # Río Negro (STJ - última instancia)
     administrativo-SALTA-CLAUDE.md     # Salta (Corte de Justicia - pleno)
     administrativo-SANJUAN-CLAUDE.md   # San Juan (Corte de Justicia - Sala Segunda)
+    administrativo-SANLUIS-CLAUDE.md   # San Luis
     administrativo-SANTAFE-CLAUDE.md   # Santa Fe (CSJSF)
     administrativo-TUCUMAN-CLAUDE.md   # Tucumán (CSJ - Sala CA)
     administrativo-_PROVINCIA_-CLAUDE.md # Template para nuevas provincias
   especialidades/
     medicina-legal-CLAUDE.md         # Pericia médica forense (penal / civil / seguridad social)
-  notarial/
-    notarial-CLAUDE.md              # Derecho notarial (protocolo, compliance UIF, escrituras)
-    notarial-clausulas.md           # Biblioteca de cláusulas tipo (complemento del perfil base)
-    notarial-_PROVINCIA_-CLAUDE.md  # Template para perfiles jurisdiccionales
+    notarial/
+      notarial-CLAUDE.md              # Derecho notarial (protocolo, compliance UIF, escrituras)
+      notarial-clausulas.md           # Biblioteca de cláusulas tipo (complemento del perfil base)
+      notarial-_PROVINCIA_-CLAUDE.md  # Template para perfiles jurisdiccionales
   civil-CLAUDE.md                   # Perfil derecho civil (CCCN)
   discapacidad-CLAUDE.md            # Perfil derecho de la discapacidad (Ley 24.901, CDPCD, CUD, PNC)
   discapacidad-DOCTRINA.md          # Doctrina y jurisprudencia por instituto (AT, PNC, accesibilidad, cupo laboral, apoyos)
@@ -73,12 +78,13 @@ argentina/
   societario-CLAUDE.md              # Perfil derecho societario (LGS)
   tributario-CLAUDE.md              # Perfil derecho tributario
   ejemplos-civil.md                 # Casos de daños y responsabilidad civil
+  ejemplos-laboral.md               # Casos laborales
   ejemplos-societario.md            # Due diligence y pactos de accionistas
   fuentes.md                        # Conectores MCP y fuentes primarias
   macos-automation.md               # Módulo opcional - automatización de escritorio macOS (Claude Code)
   legal.local.md.template           # Template de configuración local del estudio (por rama del derecho)
   evals/                            # Casos de control para verificar perfiles de área
-    README.md                       # Formato estándar y áreas prioritarias
+    evals-README.md                 # Formato estándar y áreas prioritarias
     administrativo-caba-recursos-agotamiento-via/  # Recursos Dec 1510/97 + plazo art. 7 CCAyT
 ```
 
@@ -236,10 +242,10 @@ Después:
    - Laboral: `argentina/laboral-CLAUDE.md`. Para usar skills específicas (telegramas, plazos u otras), subí los archivos de la subcarpeta correspondiente dentro de `argentina/laboral/` cuando las necesites.
    - Civil: `argentina/civil-CLAUDE.md` + `argentina/ejemplos-civil.md`
    - Discapacidad: `argentina/discapacidad-CLAUDE.md` + `argentina/discapacidad-DOCTRINA.md` + `argentina/ejemplos-discapacidad.md`
-   - Administrativo CABA: `argentina/administrativo-CLAUDE.md` + `argentina/administrativo-caba-CLAUDE.md`
-   - Administrativo PBA: `argentina/administrativo-CLAUDE.md` + `argentina/administrativo-PBA-CLAUDE.md`
-   - Administrativo Salta: `argentina/administrativo-CLAUDE.md` + `argentina/administrativo-SALTA-CLAUDE.md`
-   - Notarial: `argentina/notarial/notarial-CLAUDE.md` + `argentina/notarial/notarial-clausulas.md`
+   - Administrativo CABA: `argentina/administrativo-CLAUDE.md` + `argentina/administrativo/administrativo-CABA-CLAUDE.md`
+   - Administrativo PBA: `argentina/administrativo-CLAUDE.md` + `argentina/administrativo/administrativo-PBA-CLAUDE.md`
+   - Administrativo Salta: `argentina/administrativo-CLAUDE.md` + `argentina/administrativo/administrativo-SALTA-CLAUDE.md`
+   - Notarial: `argentina/especialidades/notarial/notarial-CLAUDE.md` + `argentina/especialidades/notarial/notarial-clausulas.md`
    - También subís tu `argentina/legal.local.md` con los datos del estudio.
 4. Guardás. Cada conversación nueva dentro del Project arranca con todos esos archivos activos.
 
@@ -299,9 +305,9 @@ Los plugins disponibles corresponden a las áreas de práctica cubiertas por est
 |---|---|---|---|
 | `laboral-CLAUDE.md` | Derecho del trabajo (LCT) | `laboral/telegrama/` | DNU 70/2023, Ley 27.742, Ley 27.802, topes art. 245, tasas CNAT |
 | `administrativo-CLAUDE.md` | Derecho administrativo (federal) | - | Plazos de caducidad, contratación pública |
-| `administrativo-CABA-CLAUDE.md` | Derecho administrativo CABA | `administrativo-CLAUDE.md` (base) | Plazo 90 días art. 7 CCAyT, Dec 1510/97, Ley 2095, Ley 471 |
-| `administrativo-PBA-CLAUDE.md` | Derecho administrativo PBA | `administrativo-CLAUDE.md` (base) | Plazos CPCA PBA, Ley 7647, contratación pública PBA |
-| `administrativo-SALTA-CLAUDE.md` | Derecho administrativo Salta | `administrativo-CLAUDE.md` (base) | Procedimiento administrativo Salta, fuero contencioso local |
+| `administrativo/administrativo-CABA-CLAUDE.md` | Derecho administrativo CABA | `administrativo-CLAUDE.md` (base) | Plazo 90 días art. 7 CCAyT, Dec 1510/97, Ley 2095, Ley 471 |
+| `administrativo/administrativo-PBA-CLAUDE.md` | Derecho administrativo PBA | `administrativo-CLAUDE.md` (base) | Plazos CPCA PBA, Ley 7647, contratación pública PBA |
+| `administrativo/administrativo-SALTA-CLAUDE.md` | Derecho administrativo Salta | `administrativo-CLAUDE.md` (base) | Procedimiento administrativo Salta, fuero contencioso local |
 | `civil-CLAUDE.md` | Derecho civil (CCCN) | `ejemplos-civil.md` | Tasas de interés, fórmulas de daños por fuero |
 | `discapacidad-CLAUDE.md` | Derecho de la discapacidad · perfil base: fuero y competencia por demandado (obras sociales nacionales, prepagas, ANDIS, GCBA, Estado provincial), regla bifurcada PAMI, checklist de admisibilidad del amparo, AT vs. cuidador domiciliario, prestaciones fuera de nomenclador, PNC (Decreto 843/2024 - inconvencionalidad obligatoria post 23/09/2024), reintegros con auditoría documental previa, cupo laboral, salud mental, plazos y prescripción diferenciada | `discapacidad-DOCTRINA.md` + `ejemplos-discapacidad.md` | Ley 27.793 (emergencia, vence 31/12/2026), nomenclador ANDIS (resolución mensual), Ley 26.682 y decretos de desregulación, Decreto 843/2024 (parámetro 66% PNC) |
 | `discapacidad-DOCTRINA.md` | Doctrina y jurisprudencia por instituto: AT (función terapéutica vs. asistencial, criterios de sala CCF), PNC (doctrina CFSS y CAF, Decreto 843/2024), prestaciones fuera de nomenclador (prueba tarifada ANMAT/FDA/EMA), accesibilidad (responsabilidad objetiva, delimitación catastral), cupo laboral (amparo individual vs. colectivo), sistema de apoyos (CDPCD art. 12 + CCCN arts. 31-50); alertas de cambios jurisprudenciales con fecha y fuero | - | - |
@@ -311,9 +317,9 @@ Los plugins disponibles corresponden a las áreas de práctica cubiertas por est
 | `societario-CLAUDE.md` | Societario y M&A | `ejemplos-societario.md` | Resoluciones IGJ/DPPJ, capital mínimo |
 | `tributario-CLAUDE.md` | Derecho tributario | - | Alícuotas, MNI, umbrales de punibilidad |
 | `concursos-CLAUDE.md` | Concursos y quiebras (LCQ) | - | Tasas post-concursales, reformas LCQ |
-| `contratos-CLAUDE.md` | Revisión y redacción de contratos | `red-flags-contratos.md` | Régimen cambiario, locaciones, intertemporalidad |
+| `contratos/CLAUDE.md` | Revisión y redacción de contratos | `contratos/red-flags.md` | Régimen cambiario, locaciones, intertemporalidad |
 | `especialidades/medicina-legal-CLAUDE.md` | Pericia médica forense (penal / civil / seguridad social) | - | CPPF implementación por distrito, baremos por tribunal |
-| `notarial/notarial-CLAUDE.md` + `notarial/notarial-clausulas.md` | Derecho notarial (escrituras traslativas, donaciones, poderes, actas, sucesiones extrajudiciales, compliance UIF) | - | Res. UIF 242/2023 (umbrales SMVM indexados), Impuesto de Sellos (anual por jurisdicción), prehorizontalidad art. 2071 (reglamentación provincial), régimen de sinceramiento fiscal vigente |
+| `especialidades/notarial/notarial-CLAUDE.md` + `especialidades/notarial/notarial-clausulas.md` | Derecho notarial (escrituras traslativas, donaciones, poderes, actas, sucesiones extrajudiciales, compliance UIF) | - | Res. UIF 242/2023 (umbrales SMVM indexados), Impuesto de Sellos (anual por jurisdicción), prehorizontalidad art. 2071 (reglamentación provincial), régimen de sinceramiento fiscal vigente |
 
 ---
 
@@ -335,7 +341,7 @@ de cada perfil para que el sistema la procese con prioridad.
 | `penal-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Umbrales de punibilidad, códigos procesales en transición |
 | `societario-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Resoluciones IGJ/DPPJ, capital mínimo, sindicatura |
 | `especialidades/medicina-legal-CLAUDE.md` | `## Alerta normativa` | Estado de implementación CPPF por distrito, baremos por tribunal requirente |
-| `notarial/notarial-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Res. UIF 242/2023 (umbrales SMVM indexados, Res. UIF 78/2025), COTI derogado (RG ARCA 5697/2025), CITI Escribanos derogado (RG ARCA 5698/2025), Impuesto de Sellos por jurisdicción, prehorizontalidad art. 2071, sinceramiento fiscal vigente |
+| `especialidades/notarial/notarial-CLAUDE.md` | `## Alerta normativa - normas de vigencia variable` | Res. UIF 242/2023 (umbrales SMVM indexados, Res. UIF 78/2025), COTI derogado (RG ARCA 5697/2025), CITI Escribanos derogado (RG ARCA 5698/2025), Impuesto de Sellos por jurisdicción, prehorizontalidad art. 2071, sinceramiento fiscal vigente |
 
 ---
 
@@ -539,7 +545,7 @@ Si hay abogados argentinos interesados en colaborar, la idea es dividir áreas d
 
 **Para contribuir directamente**, editá el archivo en tu fork y abrí un Pull Request describiendo el cambio. Si no sabés cómo, mandame el texto por mensaje y lo incorporo yo con la atribución correspondiente. Los cambios con fuente normativa citada se procesan primero.
 
-**Para aportar un caso de verificación**, el sistema incluye una carpeta `evals/` con casos de prueba que permiten comprobar que los perfiles de área detectan vicios y vulnerabilidades procesales de forma consistente. La idea es la misma que un caso de control en la práctica: una pieza procesal con solución conocida que se usa para verificar que la herramienta funciona antes de usarla en un expediente real. Cada caso tiene tres archivos: la pieza anonimizada, la rúbrica con los puntos que el sistema debe identificar, y la solución esperada. Las áreas prioritarias son nulidades procesales penales y vicios formales en contratos. Ver `evals/README.md` para el formato completo.
+**Para aportar un caso de verificación**, el sistema incluye una carpeta `evals/` con casos de prueba que permiten comprobar que los perfiles de área detectan vicios y vulnerabilidades procesales de forma consistente. La idea es la misma que un caso de control en la práctica: una pieza procesal con solución conocida que se usa para verificar que la herramienta funciona antes de usarla en un expediente real. Cada caso tiene tres archivos: la pieza anonimizada, la rúbrica con los puntos que el sistema debe identificar, y la solución esperada. Las áreas prioritarias son nulidades procesales penales y vicios formales en contratos. Ver `evals/evals-README.md` para el formato completo.
 
 ---
 
