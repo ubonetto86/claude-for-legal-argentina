@@ -604,15 +604,25 @@ Si preferís hacerlo a mano, GitHub te avisa cuando tu fork está desactualizado
 
 **Mantener tu copia local al día:**
 
-Una distinción que conviene tener clara, porque se confunde seguido. El workflow de arriba mantiene al día el repo en GitHub, no la carpeta de tu computadora. Que GitHub tenga lo último no significa que tu copia local lo tenga: para eso hay que bajar los cambios.
+Ojo con esta distinción, porque se confunde seguido. El workflow de arriba mantiene al día el repo en GitHub, no la carpeta de tu computadora. Que GitHub tenga lo último no significa que tu copia local lo tenga: para eso hay que bajar los cambios.
 
-Si trabajás con Cowork o con archivos locales, la carpeta de tu máquina es la que Claude lee, así que conviene mantenerla sincronizada. Tres opciones, de menos a más cómoda:
+Si trabajás con Cowork o con archivos locales, la carpeta de tu máquina es la que Claude lee, así que tiene que estar al día. Lo más simple es dejarlo automático: corrés un instalador una sola vez y de ahí en más tu copia se actualiza sola (en Windows al iniciar sesión; en Mac y Linux a horario fijo). Se eligió iniciar sesión en Windows a propósito: una notebook está apagada de noche, así que un horario de madrugada se saltearía.
 
-- A mano: `git pull` antes de cada sesión (Opción A, Paso 3).
-- Automático con git: corrés una sola vez `instaladores/auto-update-git.bat` (Windows) o `instaladores/auto-update-git.sh` (Mac/Linux). Programa un `git pull` que corre solo y deja tu copia al día sin que hagas nada. No pisa tu `legal.local.md`.
-- Automático sin git: para quien no quiere instalar git. `instaladores/instalar-sin-git.bat` (Windows) o `instalar-sin-git.sh` (Mac/Linux) bajan la carpeta y programan la actualización. Requiere repo público. En esta modalidad solo podés editar `argentina/legal.local.md`; cualquier otro archivo que toques se sobrescribe en la próxima actualización.
+Elegí según tu caso:
 
-Los instaladores se corren una sola vez. En Windows, doble clic; en Mac/Linux, `bash <archivo>`. Por qué al iniciar sesión y no a un horario fijo de madrugada: una notebook suele estar apagada de noche, así que un horario nocturno se saltearía. Detalle de cada uno en `instaladores/LEEME.md`.
+*Si clonaste el repo con git:*
+- Windows: doble clic en `instaladores/auto-update-git.bat`
+- Mac o Linux: en la terminal, dentro de la carpeta del repo, `bash instaladores/auto-update-git.sh`
+
+*Si no querés instalar git y solo usás el sistema:*
+- Windows: doble clic en `instaladores/instalar-sin-git.bat`
+- Mac o Linux: `bash instaladores/instalar-sin-git.sh`
+
+Dos cosas importantes. Con la versión con git, tu `argentina/legal.local.md` (la config de tu estudio) nunca se pisa. Con la versión sin git, ese es el único archivo que podés editar: cualquier otro que toques se sobrescribe en la próxima actualización. La versión sin git requiere que el repo sea público.
+
+Si en algún momento hay un conflicto de versiones, el sistema no lo resuelve solo ni descarta nada en silencio: frena, te abre un issue en GitHub con el detalle y los pasos para resolverlo, y aplica los cambios recién cuando lo arreglás.
+
+Si preferís hacerlo a mano en vez de automático, es `git pull` en la carpeta del repo antes de cada sesión (Opción A, Paso 3). El detalle de cada instalador está en `instaladores/LEEME.md`.
 
 ---
 
